@@ -33,7 +33,7 @@ import java.util.List;
 import static com.pyip.hotel.contents.HotelContents.MODEL_TEMPLATE;
 
 @SpringBootTest
-public class HotelIndexTest {
+public class HotelIndexAndDocumentTest {
     @Autowired
     private IHotelService hotelService;
 
