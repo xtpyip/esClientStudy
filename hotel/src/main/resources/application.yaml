@@ -7,6 +7,12 @@ spring:
     username: root
     password: 10086
     driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 192.168.233.34
+    port: 5672
+    username: pyip
+    password: 123321
+    virtual-host: /
 logging:
   level:
     com.pyip: debug
